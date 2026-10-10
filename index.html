@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>薪資單產生器</title>
+<meta name="description" content="把 Excel 薪資單轉成每位員工一份的加密 PDF，並在使用者自己的 Gmail 建立草稿。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="top">
+    <span class="logo" aria-hidden="true">📄</span>
+    <h1>薪資單產生器 <span class="en">Payslip Generator</span></h1>
+  </header>
+  <p class="sub">把 Excel 薪資單轉成每位員工一份的加密 PDF，並在您自己的 Gmail 建立草稿。</p>
+  <nav class="links">
+    <a href="privacy.html">隱私權政策 Privacy Policy</a>
+    <a href="mailto:win861122@gmail.com">聯絡開發者</a>
+  </nav>
+
+  <section>
+    <h2>這是什麼</h2>
+    <p>薪資單產生器是一個在 Windows 電腦上執行的桌面工具，協助人事或會計人員處理每月的薪資單：</p>
+    <ul>
+      <li>讀取 Excel 薪資單，自動找出每一位員工的薪資單，由 Microsoft Excel 輸出成 PDF。</li>
+      <li>PDF 可加密，開啟密碼為員工的身分證字號。</li>
+      <li>在<strong>使用者自己登入的 Gmail</strong> 建立草稿：每位員工一封（附本人 PDF），另可建立一封給客戶窗口的草稿。</li>
+      <li>只建立草稿，不會自動寄出；寄出前由使用者在 Gmail 確認。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>使用 Google 帳戶的方式</h2>
+    <p>本工具使用 Gmail API，只要求一個權限：<code>https://www.googleapis.com/auth/gmail.compose</code>（管理草稿及寄送電子郵件），用途僅限於在使用者自己的信箱建立草稿。本工具不會讀取、搜尋或刪除任何郵件。</p>
+    <p>薪資資料與 PDF 都在使用者的電腦上處理，不會傳送到開發者的伺服器。詳細內容請見<a href="privacy.html">隱私權政策</a>。</p>
+  </section>
+
+  <section>
+    <h2>系統需求</h2>
+    <ul>
+      <li>Windows 10 / 11</li>
+      <li>Microsoft Excel（桌面版）</li>
+      <li>Google Chrome 或 Microsoft Edge</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>取得與聯絡</h2>
+    <p>本工具供內部使用，如需取得或有任何問題，請聯絡開發者 win861122：<a href="mailto:win861122@gmail.com">win861122@gmail.com</a></p>
+  </section>
+
+  <footer>© 2026 win861122 · <a href="privacy.html">隱私權政策</a></footer>
+</main>
+</body>
+</html>

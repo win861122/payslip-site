@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策 · 薪資單產生器</title>
+<meta name="description" content="薪資單產生器如何使用、儲存與保護您的 Google 使用者資料。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="top">
+    <span class="logo" aria-hidden="true">🔒</span>
+    <h1>隱私權政策 <span class="en">Privacy Policy</span></h1>
+  </header>
+  <p class="sub">薪資單產生器（Payslip Generator）· 開發者：win861122 · 最後更新：2026 年 10 月 10 日</p>
+  <nav class="links">
+    <a href="index.html">← 回到首頁</a>
+  </nav>
+
+  <section>
+    <h2>1. 適用範圍</h2>
+    <p>本政策說明「薪資單產生器」（以下稱「本工具」）在使用者以 Google 帳戶登入後，如何存取、使用、儲存與分享資料。本工具是在使用者電腦上執行的桌面程式，開發者沒有架設任何接收使用者資料的伺服器。</p>
+  </section>
+
+  <section>
+    <h2>2. 存取的 Google 使用者資料</h2>
+    <p>本工具只要求一個 Google 權限：</p>
+    <ul>
+      <li><code>https://www.googleapis.com/auth/gmail.compose</code>（管理草稿及寄送電子郵件）</li>
+    </ul>
+    <p>透過這個權限，本工具只會做兩件事：</p>
+    <ul>
+      <li><strong>建立草稿</strong>：依使用者在本工具中設定的收件者、主旨、內文與附件（薪資單 PDF 或 ZIP），在使用者自己的 Gmail 建立草稿。</li>
+      <li><strong>讀取帳戶的 Email 位址</strong>：用來在畫面上顯示目前登入的帳戶，並作為草稿的寄件者。</li>
+    </ul>
+    <p>本工具<strong>不會</strong>讀取、搜尋、修改或刪除使用者的任何郵件，也<strong>不會</strong>自動寄出郵件；草稿是否寄出，由使用者自行在 Gmail 決定。</p>
+  </section>
+
+  <section>
+    <h2>3. 資料的使用</h2>
+    <p>從 Google API 取得的資料只用於上述功能，也就是在使用者自己的信箱建立薪資單草稿。不會用於廣告、不會出售，也不會用來訓練人工智慧或機器學習模型。</p>
+  </section>
+
+  <section>
+    <h2>4. 資料的儲存</h2>
+    <ul>
+      <li><strong>薪資資料</strong>：使用者選擇的 Excel 檔、產生的 PDF 與員工對照表（含 Email 與身分證字號），都只在使用者的電腦上處理。除了以草稿附件的形式透過 Google API 存入使用者自己的 Gmail 之外，不會傳送到其他地方。</li>
+      <li><strong>登入資訊</strong>：Google 核發的 OAuth 授權憑證只儲存在使用者電腦的 <code>%APPDATA%\PayslipGenerator\</code> 資料夾中，開發者無法取得。</li>
+      <li>本工具執行時產生的暫存檔，會在程式結束時刪除。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. 資料的分享</h2>
+    <p>本工具不會將任何 Google 使用者資料分享、出售或移轉給開發者或任何第三方。資料只在使用者的電腦與 Google 之間傳輸（用於建立草稿），傳輸皆使用 HTTPS 加密連線。</p>
+  </section>
+
+  <section>
+    <h2>6. 遵守 Google API 服務使用者資料政策</h2>
+    <p>薪資單產生器對從 Google API 取得之資訊的使用，以及將這些資訊傳輸至任何其他應用程式，皆遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API 服務使用者資料政策</a>，包括其中的「有限使用」規定。</p>
+    <p class="en">Payslip Generator's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  </section>
+
+  <section>
+    <h2>7. 撤銷授權與刪除資料</h2>
+    <ul>
+      <li>在本工具的「⚙ 寄信設定」按「登出」，會撤銷授權並刪除電腦上的登入資訊。</li>
+      <li>也可以隨時到 <a href="https://myaccount.google.com/permissions" rel="noopener">Google 帳戶 → 第三方應用程式與服務</a> 移除「薪資單產生器」的存取權。</li>
+      <li>刪除電腦上的 <code>%APPDATA%\PayslipGenerator\</code> 資料夾，即可移除本工具留在電腦上的所有設定與登入資訊。</li>
+      <li>已建立的 Gmail 草稿屬於使用者的信箱，可在 Gmail 中自行刪除。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. 政策更新與聯絡方式</h2>
+    <p>本政策如有變更，會更新本頁面並修改上方的「最後更新」日期。對本政策或資料處理方式有任何問題，請聯絡開發者 win861122：<a href="mailto:win861122@gmail.com">win861122@gmail.com</a></p>
+  </section>
+
+  <section class="en">
+    <h2>Summary (English)</h2>
+    <p>Payslip Generator is a Windows desktop tool. It requests only the <code>gmail.compose</code> scope, used solely to create drafts (payslip PDFs as attachments) in the signed-in user's own Gmail account and to read the account's email address for display. It never reads, searches, modifies or deletes email, and never sends email automatically. Payroll data is processed locally on the user's computer; OAuth tokens are stored only on that computer. No Google user data is shared with the developer or any third party, sold, used for advertising, or used to train AI/ML models. Users can revoke access at any time at myaccount.google.com/permissions. Contact: win861122@gmail.com.</p>
+  </section>
+
+  <footer>© 2026 win861122 · <a href="index.html">薪資單產生器</a></footer>
+</main>
+</body>
+</html>
